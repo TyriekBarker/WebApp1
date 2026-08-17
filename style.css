@@ -1,1 +1,13 @@
-.kkk {font-family: sans-serif;}
+.kkk {font-family: sans-serif;
+    color:lightgreen;
+margin-left: 20%;
+margin-right: 10%;
+margin-top: 5%;}
+
+#background {background-color: grey;
+padding: 20%;}
+
+#main-page {
+    background-color: rgb(211, 211, 111);
+    padding-bottom: 80%;
+}

@@ -21,7 +21,7 @@ class Circle {
 
     draw(context) {
         context.beginPath();
-        context.lineWidth = 20;
+        context.lineWidth = 2;
         context.strokeStyle = this.color;
         context.arc(this.xpos, this.ypos, this.radius, 0, Math.PI * 2, false);
         context.stroke();
@@ -39,7 +39,7 @@ for (let numbers = 0; numbers < 10; numbers++) {
     let randomX = Math.random() * windowWidth;
     let randomY = Math.random() * windowHeight;
 
-    let myCircle = new Circle(randomX,randomY,25,black);
+    let myCircle = new Circle(randomX,randomY,25,"black");
     allCircles.push(myCircle);
     createCircle(allCircles[numbers]);
 }

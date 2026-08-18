@@ -43,3 +43,5 @@ for (let numbers = 0; numbers < 10; numbers++) {
     allCircles.push(myCircle);
     createCircle(allCircles[numbers]);
 }
+
+console.log("");

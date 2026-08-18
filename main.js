@@ -43,6 +43,3 @@ for (let numbers = 0; numbers < 10; numbers++) {
     allCircles.push(myCircle);
     createCircle(allCircles[numbers]);
 }
-
-let myCircle = new Circle(30,50,25,"black");
-myCircle.draw(context);
